@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.playComponent {
+    left: 20.2vw;
+    height: 99.8vh;
+    width: 79.7vw;
+    position: fixed;
+    padding: 10px 20px 10px 20px;
+}
+
+.gameUI-Left {
+    border-right: 3px ridge black;
+    box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    background-color: aliceblue;
+}
+
+.character-info {
+    background-color: rgb(41, 19, 51);
+    padding: 10px 0px 10px 115px;
+    text-align: justify;
+}
+
+.character-info img {
+    position: absolute;
+    height: auto;
+    width: 107px;
+    left: 0;
+    top: 0;
+}
+.character-info p {
+    color: white;
+    line-height: 2px;
+}
+
+.wrap {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.attribute-list.wrap {
+    background-color: rgb(73, 35, 90);
+}
+
+.attribute-list .health {
+    color: rgb(255, 58, 58);
+}
+.attribute-list .stamina {
+    color: rgb(255, 191, 73);
+}
+.attribute-list .magic {
+    color: rgb(0, 153, 255);
+}
+.attribute-list .attack {
+    color: rgb(190, 32, 64);
+}
+.attribute-list .defense {
+    color: rgb(0, 185, 0);
+}
+.attribute-list .focus {
+    color: rgb(0, 255, 242);
+}
